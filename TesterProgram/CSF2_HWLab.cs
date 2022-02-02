@@ -29,6 +29,12 @@ namespace TesterProgram
 
             Console.WriteLine(v1);
 
+            Login l1 = new Login();
+            l1.UserName = "zman";
+            l1.Password = "zdawgR00lz";
+
+            Console.WriteLine(l1);
+
         }
     }
 }
