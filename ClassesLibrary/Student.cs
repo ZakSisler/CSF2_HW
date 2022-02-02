@@ -53,7 +53,7 @@ namespace ClassesLibrary
             return string.Format("First Name: {0} " +
                 "\nLast Name: {1}" +
                 "\nID: {2}" +
-                "\nGPA: {3}",
+                "\nGPA: {3:f}",
                 FirstName, LastName, Id, Gpa);
                 
         }
