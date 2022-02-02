@@ -35,6 +35,16 @@ namespace TesterProgram
 
             Console.WriteLine(l1);
 
+            ContactInfo c1 = new ContactInfo();
+            c1.StreetAddress = "1234 Dingleberry Lane";
+            c1.City = "Dingleton";
+            c1.State = "Missouri";
+            c1.Zip = "65556";
+            c1.Phone = "808-867-5309";
+            c1.Email = "dingleberry@dingle.com";
+
+            Console.WriteLine(c1);
+
         }
     }
 }
