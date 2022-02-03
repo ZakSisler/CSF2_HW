@@ -45,6 +45,15 @@ namespace TesterProgram
 
             Console.WriteLine(c1);
 
+            CreditCardAccount cred1 = new CreditCardAccount();
+            cred1.AccountNumber = 432432;
+            /*cred1.CustomerInfo = "bing bong";*/
+            cred1.Balance = 43.95m;
+            cred1.IsPastDue = true;
+            cred1.AnnualInterestRate = 3.2m;
+
+            Console.WriteLine(cred1);
+
         }
     }
 }
