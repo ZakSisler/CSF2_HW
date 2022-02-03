@@ -46,7 +46,7 @@ namespace ClassesLibrary
             set { _email = value; }
         }
 
-        //FQTOR
+        //FQCTOR
         public ContactInfo(string streetAddress, string city, string state, string zip, string phone, string email)
         {
             StreetAddress = streetAddress;
@@ -57,7 +57,7 @@ namespace ClassesLibrary
             Email = email;
         }
 
-        //Default un-QTOR
+        //Default un-QCTOR
         public ContactInfo() { }
 
         //ToString()

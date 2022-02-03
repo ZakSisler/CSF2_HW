@@ -45,6 +45,17 @@ namespace TesterProgram
 
             Console.WriteLine(c1);
 
+            //CUSTOMER
+            //Customer cus1 = new Customer();//casting, boxing, unboxing?!?!?! 
+            //cus1.CustomerId = "123hfh";
+            //cus1.FirstName = "Captain";
+            //cus1.LastName = "Ahab";
+            //cus1.ContactInfo = "????? mobius h. dick";
+            //            ||   ???
+            //Customer cus1 = new Customer("123hfh", "Captain", "Ahab", "????? mobius h. dick");
+
+            //Console.WriteLine(cus1);
+
         }
     }
 }
