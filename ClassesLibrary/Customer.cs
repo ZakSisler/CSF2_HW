@@ -42,6 +42,10 @@ namespace ClassesLibrary
             ContactInfo = contactInfo;
         }
 
+        public Customer() { }
+
+
+
         public override string ToString()
         {
             //return base.ToString();
@@ -51,5 +55,7 @@ namespace ClassesLibrary
                 "\nContact Info: {3}",
                 CustomerId, FirstName, LastName, ContactInfo);
         }
+
+
     }
 }

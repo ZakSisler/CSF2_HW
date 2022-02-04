@@ -46,15 +46,22 @@ namespace TesterProgram
             Console.WriteLine(c1);
 
             //CUSTOMER
-            //Customer cus1 = new Customer();//casting, boxing, unboxing?!?!?! 
-            //cus1.CustomerId = "123hfh";
-            //cus1.FirstName = "Captain";
-            //cus1.LastName = "Ahab";
-            //cus1.ContactInfo = "????? mobius h. dick";
-            //            ||   ???
+            Customer cus1 = new Customer();
+            cus1.CustomerId = "123hfh";
+            cus1.FirstName = "Captain";
+            cus1.LastName = "Ahab";
+            cus1.ContactInfo = c1;
+             
             //Customer cus1 = new Customer("123hfh", "Captain", "Ahab", "????? mobius h. dick");
 
-            //Console.WriteLine(cus1);
+            Console.WriteLine(cus1);
+
+            Books b1 = new Books("Moby Dick", "Herman M.", 1000);
+            //b1.Title = "Moby Dick";
+            //b1.Author = "Herman Melville";
+            //b1.NumberOfPages = 1000;
+
+            Console.WriteLine(b1);
 
         }
     }
